@@ -47,7 +47,8 @@ public class AppKeywords extends GenericKeywords{
 		
 		if(ExpectedMessage.equals(data.get("ActualResponse")))
 		{
-			test.log(Status.INFO, "Api returns correct response");
+			test.log(Status.INFO, "Api returns correct response" + ExpectedMessage);
+		
 		}
 		else
 			reportFailure("Got result "+ExpectedMessage );
