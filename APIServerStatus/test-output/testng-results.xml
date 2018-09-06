@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13978" started-at="2018-09-06T10:33:12Z" finished-at="2018-09-06T10:33:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13978" started-at="2018-09-06T10:33:12Z" finished-at="2018-09-06T10:33:26Z">
+      <class name="apiServer.testcases.apiServer.ApiLogin">
+        <test-method status="PASS" signature="init()[pri:0, instance:apiServer.testcases.apiServer.ApiLogin@1a968a59]" name="init" is-config="true" duration-ms="385" started-at="2018-09-06T16:03:12Z" finished-at="2018-09-06T16:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:apiServer.testcases.apiServer.ApiLogin@1a968a59]" name="initTest" is-config="true" duration-ms="114" started-at="2018-09-06T16:03:12Z" finished-at="2018-09-06T16:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="APILoginTest(java.util.Hashtable)[pri:0, instance:apiServer.testcases.apiServer.ApiLogin@1a968a59]" name="APILoginTest" duration-ms="8562" started-at="2018-09-06T16:03:12Z" data-provider="getData" finished-at="2018-09-06T16:03:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=Automationdonotuse@mailinator.com, ExpectedResult=Success, Password=r123456789, ActualResponse={"response":{"mobileLogo":"https:\/\/my.rapidfunnel.com\/uploads\/branding\/account\/6\/mobileLogo_1516175610.jpg","status":"true","rememberMe":0,"content":{"userId":"65907","accountId":"6","firstName":"Automation","lastName":"donotuse","role":"account-user","status":"3","forceChange":"0","isTrial":"0","trialExpiresOn":"2018-05-02 00:00:00","accessToken":"9789acce6781b59abfc972f26ce5e326","accessTokenExpiresOn":"2019-01-01 04:50:09","profileImage":"","accountInfo":{"status":true,"levelOnOffFlag":"1","grayedOutOnOff":"1","enableTrainingModules":"1","accountLevel":"paid","ignoreUserPayment":"1"},"freeUser":false,"autoSuspendStatus":"0","repId":"","repId2":"","userPaymentRuns":0},"brandingColors":{"primaryColor":"#c578aa","primaryColorOffset":"#ffffff","secondaryColor":"#220090","secondaryColorOffset":"#ffffff","tertiaryColor":"#7c294f","tertiaryColorOffset":"#ffffff"},"brandingURL":"","baseURL":"https:\/\/my.rapidfunnel.com"}}, Runmode=Y, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:apiServer.testcases.apiServer.ApiLogin@1a968a59]" name="quit" is-config="true" duration-ms="4888" started-at="2018-09-06T16:03:21Z" finished-at="2018-09-06T16:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- apiServer.testcases.apiServer.ApiLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
